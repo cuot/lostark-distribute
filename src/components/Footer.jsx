@@ -14,7 +14,7 @@ export default function Footer() {
                 {/* <use xlink:href="#bootstrap"></use> */}
               </svg>
             </a>
-            <span className="text-muted">© 2021 made by me</span>
+            <span className="text-muted">© 2021 made by vyrp</span>
           </div>
         </footer>
       </div>
