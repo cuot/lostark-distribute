@@ -1,0 +1,9 @@
+.list-group-item {
+  margin-top: 100px;
+}
+
+.col-12 {
+  &:hover {
+    cursor: hand;
+  }
+}

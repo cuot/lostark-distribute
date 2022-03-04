@@ -1,0 +1,8 @@
+.list-group-item {
+  margin-top: 4px;
+}
+
+.col-12:hover {
+  /* background-color: red; */
+  cursor: pointer;
+}
