@@ -6,3 +6,18 @@
   /* background-color: red; */
   cursor: pointer;
 }
+
+.profitOrLoss {
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+#calcRoot {
+  margin: 20px 200px 200px 20px;
+  border-bottom: 2000px;
+  border-top: 1px solid gray;
+}
+
+#right-body {
+  border-left: 1px solid gray;
+}

@@ -6,7 +6,7 @@ import CalcDistribute from "./components/CalcDistribute";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-light">
       <Header />
       <CalcDistribute />
       <Footer />
