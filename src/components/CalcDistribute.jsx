@@ -34,7 +34,14 @@ export default function CalcDistribute() {
   return (
     <div className="container text-white py-1">
       <div className="bg-dark profitOrLoss overflow-auto">
-        <h4 className="d-flex" style={{ margin: "30px 0px" }}>
+        <h4
+          className="d-flex"
+          style={{
+            margin: "30px 0px",
+            "background-color": "#2c3034",
+            padding: "10px",
+            borderRadius: "10px",
+          }}>
           &middot; 던전 골드 분배
         </h4>
         <div className="input-group mb-3">
