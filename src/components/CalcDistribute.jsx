@@ -63,6 +63,7 @@ export default function CalcDistribute() {
           <table
             className="table table-hover table-bordered table-striped table-dark hoverpointer"
             ref={target4}
+            style={{ "margin-bottom": "50px" }}
             onClick={
               (() => copy(4),
               () => {
@@ -182,14 +183,14 @@ export default function CalcDistribute() {
           </table>
         </div>
       </div>
-      <Overlay target={target4.current} show={show4} placement="right">
+      <Overlay target={target4.current} show={show4} placement="bottom">
         {(props) => (
           <Tooltip id="overlay-example" {...props}>
             {`Copy to ${copy(4)} Gold!`}
           </Tooltip>
         )}
       </Overlay>
-      <Overlay target={target8.current} show={show8} placement="right">
+      <Overlay target={target8.current} show={show8} placement="top">
         {(props) => (
           <Tooltip id="overlay-example" {...props}>
             {`Copy to ${copy(8)} Gold!`}
