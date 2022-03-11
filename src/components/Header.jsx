@@ -2,20 +2,20 @@ import React from "react";
 
 export default function Header() {
   return (
-    <header className="p-3 bg-primary bg-opacity-75 text-white">
+    <header
+      className="p-3 bg-opacity-75 text-white"
+      style={{ "background-color": "#055160" }}>
       <div className="container">
         <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
           <a
             href="/"
-            className="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"
-          >
+            className="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
             <svg
               className="bi me-2"
               width="40"
               height="32"
               role="img"
-              aria-label="Bootstrap"
-            >
+              aria-label="Bootstrap">
               {/* <use xlink:href="/"></use> */}
             </svg>
           </a>
