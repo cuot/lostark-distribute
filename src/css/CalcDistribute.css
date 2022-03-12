@@ -21,3 +21,22 @@
 #right-body {
   border-left: 1px solid rgb(224, 224, 224);
 }
+
+#calcDistribute {
+  color: white;
+  background-color: #2c3034;
+  padding: 0.25rem;
+}
+
+#calcDistribute div {
+  padding: 0px 100px;
+}
+
+#calcDistribute div h4 {
+  margin: 30px 0px;
+  padding: 0px;
+}
+
+#calcDistribute div div table {
+  margin-bottom: 50px;
+}

@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import { Overlay, Tooltip } from "react-bootstrap";
-import "./CalcDistribute.css";
+import "../css/CalcDistribute.css";
 
 export default function CalcDistribute() {
   const [price, setPrice] = useState(0);
@@ -32,18 +32,9 @@ export default function CalcDistribute() {
   const bid8People = () => (price * 0.95) / (1 / 7 + 1);
 
   return (
-    <div className="container text-white py-1">
-      <div className="bg-dark profitOrLoss overflow-auto">
-        <h4
-          className="d-flex"
-          style={{
-            margin: "30px 0px",
-            "background-color": "#2c3034",
-            padding: "10px",
-            borderRadius: "10px",
-          }}>
-          &middot; 던전 골드 분배
-        </h4>
+    <div className="container" id="calcDistribute">
+      <div className="profitOrLoss overflow-auto">
+        <h4 className="d-flex">&middot; 던전 골드 분배</h4>
         <div className="input-group mb-3">
           <span className="input-group-text" id="inputGroup-sizing-default">
             골드
@@ -63,7 +54,6 @@ export default function CalcDistribute() {
           <table
             className="table table-hover table-bordered table-striped table-dark hoverpointer"
             ref={target4}
-            style={{ "margin-bottom": "50px" }}
             onClick={
               (() => copy(4),
               () => {
@@ -186,14 +176,14 @@ export default function CalcDistribute() {
       <Overlay target={target4.current} show={show4} placement="bottom">
         {(props) => (
           <Tooltip id="overlay-example" {...props}>
-            {`Copy to ${copy(4)} Gold!`}
+            {`${copy(4)} gold copy complete!`}
           </Tooltip>
         )}
       </Overlay>
       <Overlay target={target8.current} show={show8} placement="top">
         {(props) => (
           <Tooltip id="overlay-example" {...props}>
-            {`Copy to ${copy(8)} Gold!`}
+            {`${copy(8)} gold copy complete!`}
           </Tooltip>
         )}
       </Overlay>

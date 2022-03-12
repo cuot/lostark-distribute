@@ -1,0 +1,17 @@
+header {
+  text-align: left;
+  background-color: #323233;
+  padding: 16px;
+}
+
+header > div > a {
+  text-decoration: none;
+}
+
+header > div > a > span {
+  border-radius: 10px;
+  color: #8e8e8e;
+  margin: 0px 100px;
+  padding: 4px 10px;
+  font-size: 32px;
+}

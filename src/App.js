@@ -3,10 +3,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import CalcDistribute from "./components/CalcDistribute";
+import "./css/main.css";
 
 function App() {
   return (
-    <div className="App bg-dark">
+    <div className="App">
       <Header />
       <CalcDistribute />
       <Footer />
