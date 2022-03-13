@@ -3,7 +3,7 @@ import "../css/Footer.css";
 
 export default function Footer() {
   return (
-    <footer>
+    <div id="footer">
       <div className="container">
         <div>
           <div className="col-md-4">
@@ -11,6 +11,6 @@ export default function Footer() {
           </div>
         </div>
       </div>
-    </footer>
+    </div>
   );
 }

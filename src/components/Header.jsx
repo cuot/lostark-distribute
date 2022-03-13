@@ -3,12 +3,14 @@ import "../css/Header.css";
 
 export default function Header() {
   return (
-    <header>
-      <div className="container">
-        <a href="/">
-          <span id="headertext">로스트아크 분배 계산기</span>
-        </a>
+    <div id="header">
+      <div className="container shadow">
+        <div>
+          <a href="/">
+            <span id="headertext">로스트아크 분배 계산기</span>
+          </a>
+        </div>
       </div>
-    </header>
+    </div>
   );
 }
